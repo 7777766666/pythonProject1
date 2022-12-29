@@ -56,3 +56,5 @@ print(id(dal));
 pop = "Lol";
 print(id(pop));
 
+print(type(pop));
+print(type(b));

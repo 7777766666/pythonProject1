@@ -41,3 +41,18 @@ def myInstr(a, b):
 f = myInstr(a, b);
 
 print(f);
+
+name_lol = "Lol!!!";
+print(name_lol);
+name_lol = 88;
+print(name_lol);
+
+id(lol);
+
+dal = lol;
+print(id(lol));
+print(id(dal));
+
+pop = "Lol";
+print(id(pop));
+

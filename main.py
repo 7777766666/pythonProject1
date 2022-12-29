@@ -44,7 +44,7 @@ print(f);
 
 name_lol = "Lol!!!";
 print(name_lol);
-name_lol = 88;
+name_lol = "1234567890";
 print(name_lol);
 
 id(lol);
@@ -73,3 +73,12 @@ print(ppp);
 print(zzz);
 print(type(zzz));
 print(type(int));
+print(id(zzz))
+# print(type(function));
+
+print(len(name_lol));
+
+print(name_lol[0]);
+print(name_lol[1]);
+print(name_lol[2]);
+print(name_lol[3]);

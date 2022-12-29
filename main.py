@@ -10,6 +10,8 @@ print(lol.upper());
 
 print(dir())
 print(dir(__builtins__))
-input("Enter name, please: ");
+# input("Enter name, please: ");
 zzz = input("Enter name, please: ");
-print(zzz);
+ddd = input("age: ")
+aaa = input("Your cource: ")
+print(zzz + " " + ddd + " " + " " + aaa);

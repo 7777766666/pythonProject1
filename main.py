@@ -82,3 +82,7 @@ print(name_lol[0]);
 print(name_lol[1]);
 print(name_lol[2]);
 print(name_lol[3]);
+print(name_lol[5 : 8]);
+print(name_lol[:6]);
+print(name_lol[4:])
+

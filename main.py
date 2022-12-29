@@ -71,3 +71,5 @@ all
 """
 print(ppp);
 print(zzz);
+print(type(zzz));
+print(type(int));

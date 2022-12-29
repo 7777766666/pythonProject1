@@ -1,3 +1,5 @@
+import datetime;
+
 print("Lol", 555, "999");
 print(print);
 # name = input("Enter someThing: ");
@@ -11,7 +13,31 @@ print(lol.upper());
 print(dir())
 print(dir(__builtins__))
 # input("Enter name, please: ");
-zzz = input("Enter name, please: ");
-ddd = input("age: ")
-aaa = input("Your cource: ")
-print(zzz + " " + ddd + " " + " " + aaa);
+# zzz = input("Enter name, please: ");
+# ddd = input("age: ")
+# aaa = input("Your cource: ")
+# print(zzz + " " + ddd + " " + " " + aaa);
+# print(zzz.capitalize());
+
+
+def myFn():
+    print("Hello");
+
+print("Lol");
+
+myFn();
+
+print(datetime.MAXYEAR);
+print(datetime.MINYEAR);
+
+a = 10;
+b = 3;
+
+
+def myInstr(a, b):
+    return a * b + 100;
+
+
+f = myInstr(a, b);
+
+print(f);

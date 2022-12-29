@@ -55,6 +55,19 @@ print(id(dal));
 
 pop = "Lol";
 print(id(pop));
+top = True;
 
 print(type(pop));
 print(type(b));
+print(type(top));
+
+ppp = "lol" \
+      "lol" \
+      "555";
+zzz = """ I
+        soo
+all
+   good
+"""
+print(ppp);
+print(zzz);

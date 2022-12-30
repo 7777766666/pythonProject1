@@ -209,7 +209,12 @@ print(user_inputs);
 # print(user_inputs);
 # user_inputs.sort(reverse=True);
 # print(user_inputs);
+print("!!!@@@@@@@@")
 num_different = [55, -99, -999, 567];
+print(min(num_different));
+print(max(num_different));
+print(sum(num_different));
+
 
 num_different.sort();
 print(num_different);

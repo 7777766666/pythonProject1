@@ -156,5 +156,7 @@ print(g.__mul__(gg));   #NotImplemented
 print(gg.__mul__(g));   #Lob Lob Lob Lob Lob Lob Lob Lob Lob Lob
 print(gg.__rmul__(g));  #Lob Lob Lob Lob Lob Lob Lob Lob Lob Lob
 
+print(bool.__doc__);
+
 
 

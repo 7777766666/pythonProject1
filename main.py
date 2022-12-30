@@ -304,3 +304,6 @@ print(id(another_car));
 print(id(my_car));
 print(another_car == my_car);
 print(another_car.__eq__(my_car));
+
+print(my_car["price"]);
+print(another_car["model"]);

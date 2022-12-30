@@ -132,5 +132,20 @@ complex_y = 20 + 10j;
 
 print(str( complex_y + complex_x) + " and "+ str(type(complex_y)));
 
+print ("lll" < "z")
+
+print([1,2,3,9] > [1,9]);
+print({a: 6} == {a: 6});
+
+ss = 2;
+ee = 2.5;
+print(ss+ee);
+print(ee+ss);
+
+nnn = True;
+bbb = 7;
+print(nnn + bbb);
+print(bbb+nnn);
+
 
 

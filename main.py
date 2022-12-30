@@ -286,3 +286,20 @@ rofl = rofl.__add__(rofl2);
 print(rofl);
 rofl +=rofl2;
 print(rofl);
+
+my_car = {
+    "model": "Tesla",
+    "price": 5_555,
+    "engine": "volt",
+    "v": 5.5,
+};
+
+another_car = {
+    "engine": "volt",
+    "v": 5.5,
+    "model": "Tesla",
+    "price": 5_555,
+};
+print(id(another_car));
+print(id(my_car));
+print(another_car == my_car);

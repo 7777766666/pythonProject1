@@ -101,13 +101,24 @@ x = int(x);
 print(type(x));
 x += 7.88888;
 print(x);
+print(type(x));
 
 print(pow(2, 10));  #2 в 10 степени 1024
 zz = 1_000_000;
 print(zz + x);
 
-qqq = input("Enter num: ")
+# qqq = input("Enter num: ")
+qqq = 100;
 print(type(qqq));
 qqq = int(qqq);
 print(type(qqq));
+
+cc = 0.2+0.3+0.4+0.5+0.6+0.1+0.7
+print(cc);
+print(type(cc));
+
+bb = "444.444";
+cc = float(bb);
+rr =  str(bb) + " hello " + str(type(bb));
+print(rr);
 

@@ -169,5 +169,8 @@ number_list_2 = [1000, 300, 100];
 user_input_list = ["Hello", 100, True, 99,99];
 
 print(number_list_1 == number_list_2);  #False
+print(number_list_1.__len__());
+print(len(number_list_2));
+print(len(number_list_2) == len(number_list_1));
 
 

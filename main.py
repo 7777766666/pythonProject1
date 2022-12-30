@@ -45,6 +45,7 @@ print(f);
 name_lol = "Lol!!!";
 print(name_lol);
 name_lol = "1234567890";
+name_lol2 = "abcdefgh";
 print(name_lol);
 
 id(lol);
@@ -62,7 +63,7 @@ print(type(b));
 print(type(top));
 
 ppp = "lol" \
-      "lol" \
+      "lol      " \
       "555";
 zzz = """ I
         soo
@@ -84,5 +85,11 @@ print(name_lol[2]);
 print(name_lol[3]);
 print(name_lol[5 : 8]);
 print(name_lol[:6]);
-print(name_lol[4:])
+print(name_lol[4:]);
+print(name_lol.count(name_lol));
+print(name_lol2.upper());
+print(name_lol2.count("bcdef"));  #содержит ли, аналог контэйн
+name_new = name_lol2.replace("abc", "123");
+print(name_new);
+print(ppp.count("  "));  #количество данного выражения в нашей переменной 3*2  "  "
 

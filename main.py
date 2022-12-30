@@ -190,6 +190,9 @@ users = [
         "name_user": "Tom"
     }
 ];
+
+
+
 print(len(users));
 print(users);
 print(users[0]);
@@ -215,3 +218,12 @@ print(num_different);
 str_some = ["qwe", "abc", "aaa", "zzz", "azzz"];
 str_some.sort();
 print(str_some);
+some_text = "Hello world for ever";
+some_text_lettes = list(some_text);
+print(some_text_lettes);
+
+users2 ={ "id_user": 888,
+          "name_user": "Ann" };
+print(users2);
+users_letters = list(users2);
+print(users_letters);

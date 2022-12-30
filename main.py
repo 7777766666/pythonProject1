@@ -92,4 +92,17 @@ print(name_lol2.count("bcdef"));  #содержит ли, аналог конт�
 name_new = name_lol2.replace("abc", "123");
 print(name_new);
 print(ppp.count("  "));  #количество данного выражения в нашей переменной 3*2  "  "
+print(ppp[-2]);
+print(ppp[3: -2]);
+print(ppp[-2: ]);
+
+x = "555";
+x = int(x);
+print(type(x));
+x += 7.88888;
+print(x);
+
+print(pow(2, 10));  #2 в 10 степени 1024
+zz = 1_000_000;
+print(zz + x);
 

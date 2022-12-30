@@ -424,3 +424,14 @@ print(lol_top.index(999));
 zzzzz = lol_top.index(999);
 print(lol_top.index(999, zzzzz+1));
 print(lol_top);
+
+my_tuple = tuple("super lol");
+print(my_tuple);
+
+my_tuple1 = tuple({"first": 888, "second": 555});
+print(my_tuple1);
+print(type(my_tuple1));
+my_tuple2 = (-7, False, "Lol");
+my_tuple3 = tuple("Hello, World");
+my_tuple4 = list(my_tuple2+my_tuple3);
+print(my_tuple4);

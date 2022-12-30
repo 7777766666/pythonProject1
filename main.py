@@ -149,7 +149,12 @@ print(bbb+nnn);
 
 gg = "Lob ";
 g = 10;
-print(g * gg);
-print(gg * g);
+# print(g * gg);
+# print(gg * g);
+
+print(g.__mul__(gg));   #NotImplemented
+print(gg.__mul__(g));   #Lob Lob Lob Lob Lob Lob Lob Lob Lob Lob
+print(gg.__rmul__(g));  #Lob Lob Lob Lob Lob Lob Lob Lob Lob Lob
+
 
 

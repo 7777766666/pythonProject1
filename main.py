@@ -1,4 +1,5 @@
 import datetime;
+from pprint import pprint
 
 print("Lol", 555, "999");
 print(print);
@@ -314,5 +315,8 @@ print(dir(my_car));
 my_car["fast"] = True;
 print(my_car);
 my_car["fast"] = False;
+print(my_car);
+pprint(my_car);
+del my_car["fast"];
 print(my_car);
 

@@ -358,14 +358,38 @@ print(my_dict);
 lol_lol = {};
 print(type(lol_lol));
 
-k1 = input("Enter key1: ")
-z1 = input("Enter znachenie 1: ")
-lol_lol [k1] = z1;
-k2 = input("Enter key2: ")
-z2 = bool(input("Enter znachenie 2: "))
-lol_lol[k2] = z2;
-k3 = input("Enter key3: ")
-z3 = int(input("Enter znachenie 3: "));
-lol_lol[k3] = z3;
-print(lol_lol);
+# k1 = input("Enter key1: ")
+# z1 = input("Enter znachenie 1: ")
+# lol_lol [k1] = z1;
+# k2 = input("Enter key2: ")
+# z2 = bool(input("Enter znachenie 2: "))
+# lol_lol[k2] = z2;
+# k3 = input("Enter key3: ")
+# z3 = int(input("Enter znachenie 3: "));
+# lol_lol[k3] = z3;
+# print(lol_lol);
+# lol_lol["4"] = float(-99.99);
+# del lol_lol["1"];
+# print(lol_lol);
 
+lol_tuple1 = (1, 5, 100);
+lol_tuple2 = (10.999, True, False, "Lol");
+print(type(lol_tuple2));
+lol_tuple3 = (100, 1, 5);
+lol_tuple4 = (100, 1, 5);
+print(lol_tuple3.__eq__(lol_tuple1));
+print(lol_tuple4 == lol_tuple3);
+print(len(lol_tuple4));
+print(lol_tuple4[-2]);
+print(lol_tuple2.__len__());
+users10 = (
+    {
+        "id555": 555,
+        "name": "Tom",
+    },
+    {
+        "id88": -999,
+        "name": "Lol",
+    },
+);
+print(users10);

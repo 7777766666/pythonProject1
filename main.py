@@ -336,4 +336,17 @@ print(len(my_car));
 print(my_car.get("some_key"));
 print(my_car.get("some_key",999));
 
+lol_disk = {};
+print(id(lol_disk));
+print(type(lol_disk));
+lol_disk ["price"] = 100.5;
+lol_disk["type"] = "ssd";
+print(lol_disk);
+print(lol_disk.__doc__);
+print(lol_disk.items());
+print(type(lol_disk));
+print(lol_disk.keys());
+print(list(lol_disk.keys()));
+print(lol_disk.clear());
+
 

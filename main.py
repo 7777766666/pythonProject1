@@ -279,3 +279,10 @@ list_rofl2 = ["mem", 99];
 list_rofl +=list_rofl2;
 print(list_rofl);
 print(list_rofl[0:7]);
+
+rofl = ["lol", "MegaLol"];
+rofl2 = [10, -2];
+rofl = rofl.__add__(rofl2);
+print(rofl);
+rofl +=rofl2;
+print(rofl);

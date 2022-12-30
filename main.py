@@ -147,5 +147,9 @@ bbb = 7;
 print(nnn + bbb);
 print(bbb+nnn);
 
+gg = "Lob ";
+g = 10;
+print(g * gg);
+print(gg * g);
 
 

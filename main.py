@@ -319,4 +319,15 @@ print(my_car);
 pprint(my_car);
 del my_car["fast"];
 print(my_car);
+lol_key = "model";
+my_car[lol_key] = "BMW";
+print(my_car);
+my_car["lol_inside" "price_in_uk"]= 65000;
+my_car["lol_inside""price_in_usa"] = 55_000;
+# my_car["lol_inside""different"] = True;
+print(my_car);
+brand = "Audi";
+my_car["model"] = brand;
+print(my_car);
+
 

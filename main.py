@@ -211,6 +211,8 @@ print(user_inputs);
 # print(user_inputs);
 print("!!!@@@@@@@@")
 num_different = [55, -99, -999, 567];
+num_different.sort();
+print(num_different);
 print(min(num_different));
 print(max(num_different));
 print(sum(num_different));
@@ -218,9 +220,11 @@ print(sum(num_different)/len(num_different));
 num_different2 = [10, 10];
 num_different3 = num_different2 + num_different;
 print(num_different3);
+num_different4 = num_different2.__add__(num_different).__add__(num_different3);
+print(num_different4);
 
 
-num_different.sort();
+# num_different.sort();
 print(num_different);
 num_different.sort(reverse=True);
 print(num_different);
@@ -236,3 +240,6 @@ users2 ={ "id_user": 888,
 print(users2);
 users_letters = list(users2);
 print(users_letters);
+
+num_different5 = num_different4[:3];
+print(num_different5)

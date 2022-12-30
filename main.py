@@ -313,3 +313,6 @@ print(my_car);
 print(dir(my_car));
 my_car["fast"] = True;
 print(my_car);
+my_car["fast"] = False;
+print(my_car);
+

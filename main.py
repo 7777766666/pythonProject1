@@ -329,5 +329,10 @@ print(my_car);
 brand = "Audi";
 my_car["model"] = brand;
 print(my_car);
+print(len(my_car));
+del my_car["lol_inside" "price_in_uk"];
+del my_car["lol_inside""price_in_usa"];
+print(len(my_car));
+print(my_car.get("some_key"));
 
 

@@ -355,5 +355,17 @@ my_list = [("one", "Lol"), ["two", True], ["tree", 66.66]];
 my_dict = dict(my_list);
 print(my_dict);
 
+lol_lol = {};
+print(type(lol_lol));
 
+k1 = input("Enter key1: ")
+z1 = input("Enter znachenie 1: ")
+lol_lol [k1] = z1;
+k2 = input("Enter key2: ")
+z2 = bool(input("Enter znachenie 2: "))
+lol_lol[k2] = z2;
+k3 = input("Enter key3: ")
+z3 = int(input("Enter znachenie 3: "));
+lol_lol[k3] = z3;
+print(lol_lol);
 

@@ -334,5 +334,6 @@ del my_car["lol_inside" "price_in_uk"];
 del my_car["lol_inside""price_in_usa"];
 print(len(my_car));
 print(my_car.get("some_key"));
+print(my_car.get("some_key",999));
 
 

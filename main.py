@@ -307,3 +307,9 @@ print(another_car.__eq__(my_car));
 
 print(my_car["price"]);
 print(another_car["model"]);
+
+my_car["price"] = 999_999;
+print(my_car);
+print(dir(my_car));
+my_car["fast"] = True;
+print(my_car);

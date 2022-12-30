@@ -180,4 +180,35 @@ print(user_input_list[-2]);
 del user_input_list[-2];
 print(user_input_list);
 
+users = [
+    {
+        "id_user": 888,
+        "name_user": "Ann"
+    },
+    {
+        "id_user": 891,
+        "name_user": "Tom"
+    }
+];
+print(len(users));
+print(users);
+print(users[0]);
+print(users[1]);
 
+user_inputs = [True, "Lol", 33.33, 100];
+ff = user_inputs.pop();
+print(str(user_inputs) + " ! " + str(ff));
+user_inputs.pop(-2);
+print(user_inputs);
+user_inputs.append("SuperLol");
+print(user_inputs);
+# user_inputs.sort();
+# print(user_inputs);
+# user_inputs.sort(reverse=True);
+# print(user_inputs);
+num_different = [55, -99, -999, 567];
+
+num_different.sort();
+print(num_different);
+num_different.sort(reverse=True);
+print(num_different);

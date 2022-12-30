@@ -214,6 +214,7 @@ num_different = [55, -99, -999, 567];
 print(min(num_different));
 print(max(num_different));
 print(sum(num_different));
+print(sum(num_different)/len(num_different));
 
 
 num_different.sort();

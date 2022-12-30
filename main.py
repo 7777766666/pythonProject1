@@ -347,6 +347,13 @@ print(lol_disk.items());
 print(type(lol_disk));
 print(lol_disk.keys());
 print(list(lol_disk.keys()));
-print(lol_disk.clear());
+# print(lol_disk.clear());
+print(lol_disk.get("lol", 888888888888));
+
+# my_list = [["one", "Lol"], ["two", True], ["tree", 66.66]];
+my_list = [("one", "Lol"), ["two", True], ["tree", 66.66]];
+my_dict = dict(my_list);
+print(my_dict);
+
 
 

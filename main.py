@@ -106,3 +106,8 @@ print(pow(2, 10));  #2 в 10 степени 1024
 zz = 1_000_000;
 print(zz + x);
 
+qqq = input("Enter num: ")
+print(type(qqq));
+qqq = int(qqq);
+print(type(qqq));
+

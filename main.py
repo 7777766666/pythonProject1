@@ -166,11 +166,18 @@ print(my_list.__eq__);
 list_fruits = ["apple", "banana", "lime"];
 number_list_1 = [100, 300, 1000];
 number_list_2 = [1000, 300, 100];
-user_input_list = ["Hello", 100, True, 99,99];
+user_input_list = ["Hello", 100, True, 99.99];
 
 print(number_list_1 == number_list_2);  #False
 print(number_list_1.__len__());
 print(len(number_list_2));
 print(len(number_list_2) == len(number_list_1));
+print(user_input_list[-2]);
+print(user_input_list[3]);
+print(user_input_list[2] == user_input_list[-2]);
+user_input_list[-2] = False
+print(user_input_list[-2]);
+del user_input_list[-2];
+print(user_input_list);
 
 

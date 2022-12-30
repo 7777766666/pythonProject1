@@ -261,5 +261,21 @@ num_different10.append(888);
 print(num_different10);
 num_different10.insert(2, -666);
 print(num_different10);
-num_different10.extend("abc");
+num_different10.extend("abczzz");
 print(num_different10);
+
+list_l = [6, 8];
+f = {a : "Tom"};
+
+list_rofl = [-6, True, "Lol", list_l, f];
+print(list_rofl);
+del list_rofl[2];
+print(list_rofl);
+print(len(list_rofl));
+print(list_rofl.__len__());
+list_rofl.reverse();
+print(list_rofl);
+list_rofl2 = ["mem", 99];
+list_rofl +=list_rofl2;
+print(list_rofl);
+print(list_rofl[0:7]);

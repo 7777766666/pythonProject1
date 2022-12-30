@@ -212,3 +212,6 @@ num_different.sort();
 print(num_different);
 num_different.sort(reverse=True);
 print(num_different);
+str_some = ["qwe", "abc", "aaa", "zzz", "azzz"];
+str_some.sort();
+print(str_some);

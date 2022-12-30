@@ -243,3 +243,16 @@ print(users_letters);
 
 num_different5 = num_different4[:3];
 print(num_different5)
+num_different6 = num_different4[2: -2];
+print(num_different4);
+print(num_different6);
+num_different7 = num_different4[:];
+print(num_different7);
+num_different8 = num_different7;
+print(id(num_different4));
+print(id(num_different7));
+print(id(num_different8));
+num_different9 = num_different4.copy();
+print(id(num_different9));
+num_different10 = list(num_different4);
+print(id(num_different10));

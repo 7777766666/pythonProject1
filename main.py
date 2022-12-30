@@ -122,3 +122,15 @@ cc = float(bb);
 rr =  str(bb) + " hello " + str(type(bb));
 print(rr);
 
+x = 66.66;
+print(x.__round__());
+print(round(x));
+
+k = 2;
+complex_x = 10 + 9j;
+complex_y = 20 + 10j;
+
+print(str( complex_y + complex_x) + " and "+ str(type(complex_y)));
+
+
+

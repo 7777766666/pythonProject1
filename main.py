@@ -384,12 +384,43 @@ print(lol_tuple4[-2]);
 print(lol_tuple2.__len__());
 users10 = (
     {
-        "id555": 555,
+        "id": 555,
         "name": "Tom",
     },
     {
-        "id88": -999,
+        "id": -999,
         "name": "Lol",
     },
 );
+print(users10[1]["id"]);
+print(users10[0]["name"]);
+users10[1]["id"] = 777;
+users10[1]["name"] = "Lol and Lol";
 print(users10);
+print(users10[1]["name"]);
+print(users10[1]["id"]);
+super_lol = "Mega lol";
+users10[1]["name"] = super_lol;
+print(users10[1]["name"]);
+new_lols = (-7, 0, 222);
+print(id(new_lols));
+new_lols2 = (999, 999);
+new_lols = new_lols.__add__(new_lols2);
+# new_lols = new_lols+new_lols2;
+print(new_lols.__len__());
+print(new_lols);
+print(new_lols.count(999));
+print(new_lols.index(-7));
+print(id(new_lols));
+
+lol_top = list(new_lols);
+lol_top.insert(-1, 77777);
+print(lol_top);
+lol_top = tuple(lol_top);
+print(type(lol_top));
+print(lol_top);
+
+print(lol_top.index(999));
+zzzzz = lol_top.index(999);
+print(lol_top.index(999, zzzzz+1));
+print(lol_top);

@@ -215,6 +215,9 @@ print(min(num_different));
 print(max(num_different));
 print(sum(num_different));
 print(sum(num_different)/len(num_different));
+num_different2 = [10, 10];
+num_different3 = num_different2 + num_different;
+print(num_different3);
 
 
 num_different.sort();

@@ -1,5 +1,6 @@
 import datetime;
 from pprint import pprint
+from copy import deepcopy
 
 print("Lol", 555, "999");
 print(print);
@@ -594,3 +595,67 @@ print(lol_mem2["exchange"]);
 print(lol_mem["exchange"]);
 print(lol_mem2);
 print(lol_mem);
+
+
+lol_mem["exchange"].clear();
+print(lol_mem)
+lol_mem3 = deepcopy(lol_mem);
+lol_mem["exchange"].append("joke");
+lol_mem["exchange"].append("Bla-bla-bla");
+print(lol_mem3);
+print(lol_mem);
+print(lol_mem2);
+
+a = 5
+b = 10
+
+c = 100;
+d = 101;
+
+
+def nyn(x, y):
+    return x * y;
+
+print(nyn(a,b))
+
+def non(x, y):
+    y += 100;
+    c = x + y;
+    print(c);
+
+non(a, b);
+print(type(non));
+
+f = nyn(c, d);
+print(f)
+
+pers_lol = {
+    "name": "Tom",
+    "age": 30,
+}
+print(pers_lol["age"]);
+def increase_lol(xxx):
+    xxx["age"] +=100;
+    print(id(xxx))
+    return xxx;
+
+print(pers_lol["age"])
+
+increase_lol(pers_lol)
+
+print(pers_lol);
+print(pers_lol["age"]);
+print(id(pers_lol))
+
+def method2(yyy):
+    yyy_copy = yyy.copy();
+    yyy_copy["age"] += 1000;
+    return yyy_copy;
+
+
+lol_method2 = method2(pers_lol);
+print(lol_method2);
+print(pers_lol);
+print(pers_lol["age"]);
+print(lol_method2["age"]);
+

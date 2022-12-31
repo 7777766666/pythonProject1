@@ -66,16 +66,16 @@ print(type(top));
 ppp = "lol" \
       "lol      " \
       "555";
-zzz = """ I
+xxxx = """ I
         soo
 all
    good
 """
 print(ppp);
-print(zzz);
-print(type(zzz));
+print(xxxx);
+print(type(xxxx));
 print(type(int));
-print(id(zzz))
+print(id(xxxx))
 # print(type(function));
 
 print(len(name_lol));
@@ -506,3 +506,74 @@ list_convert = list(my_int7);
 my_int7 = list(my_int7);
 print(type(list_convert));
 print(type(my_int7));
+
+my_range = range(10);
+my_range2= range(2, 17, 3);
+print(my_range);
+print(type(my_range));
+print(list(my_range));
+print(my_range2);
+print(list(my_range2))
+print(my_range2);
+print(my_range2[1]);
+print(my_range2[2]);
+print(my_range2[3]);
+print(my_range2[4]);
+print("!!!!!")
+
+cc = range(87, 100, 3);
+for xxx in range(2, 20, 3):
+    print(xxx);
+
+for xxxx in range(99, 103):
+    print(xxxx);
+
+print(type(cc));
+print(cc[-1]);
+for xxx in cc:
+    print(xxx);
+    print(list(cc));
+
+print(tuple(cc));
+print(set(cc));
+print(type(cc));
+
+print(dir(cc));
+print(cc.count(90));
+print(cc.index(93));
+print(cc.start);
+print(cc.stop);
+print(cc.step);
+print(cc.count(55555));
+
+cars = ["Tesla", "BMW", "Audi", "Kamaz"];
+price = [55, 30, 25, 111];
+in_office = (True, False, False, True)
+cars_price_zip1 = list(zip(cars, price, in_office));
+cars_price_zip2 = list(zip (in_office, price, cars));
+print(cars_price_zip2);
+print(type(cars_price_zip2));
+cars_price_zip5 = dict(zip(cars, price));
+print(cars_price_zip5);
+
+int_66 = 66;
+num_66 = 66;
+num_66 += 10;
+print(id(66));
+print(id(int_66));
+print(id(num_66));
+print(num_66)
+print(id(76))
+print(int_66)
+
+about_lol = {
+    "name": "Lol",
+    "age": 1000.6,
+}
+lol_clone = about_lol;
+about_lol["Gamer"] = True;
+print(about_lol);
+print(lol_clone)
+
+
+

@@ -495,3 +495,14 @@ my_set7.add(False);
 print((my_set4 | my_set7) - (my_set4 & my_set7));
 print(my_set7.symmetric_difference(my_set4));
 
+my_int5 = {88, -77, 123, 99};
+my_int5.add(-666);
+print(my_int5);
+print(type(my_int5));
+my_int6 = {-44, -123, -77, 99, -666};
+my_int7 = my_int6 & my_int5;
+print(my_int7);
+list_convert = list(my_int7);
+my_int7 = list(my_int7);
+print(type(list_convert));
+print(type(my_int7));

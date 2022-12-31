@@ -573,7 +573,24 @@ about_lol = {
 lol_clone = about_lol;
 about_lol["Gamer"] = True;
 print(about_lol);
-print(lol_clone)
+print(lol_clone["Gamer"]);
+lol_clone["Gamer"] = False;
+print(lol_clone);
 
+lol_not_clone = {
+    "name": "Lol",
+    "age": 1000.6,
+};
+print(str(id(lol_not_clone)) + " and \n" + str (id(about_lol)));
+copy_lol_clone = lol_not_clone.copy();
 
-
+lol_mem = {
+    "name": "Xa-Xa",
+    "exchange": [],
+}
+lol_mem2 = lol_mem.copy();
+lol_mem["exchange"].append("mem mem mem"),
+print(lol_mem2["exchange"]);
+print(lol_mem["exchange"]);
+print(lol_mem2);
+print(lol_mem);

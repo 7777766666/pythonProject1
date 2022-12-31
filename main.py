@@ -463,3 +463,12 @@ set_defff = photo_x.intersection(photo_s);
 set_defff1 = photo_s & photo_x;
 print(set_defff);
 print(set_defff1);
+
+lol_set_lo = {1, 2};
+lol_set_lo1 = {5, 6, 7, 1, 0, 2};
+jjj = lol_set_lo1.issubset(lol_set_lo);
+print(jjj);
+jjj1 = lol_set_lo.issubset(lol_set_lo1);
+print(jjj1);
+jjj2 = lol_set_lo1.issuperset(lol_set_lo);
+print(jjj2);

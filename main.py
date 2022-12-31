@@ -435,3 +435,31 @@ my_tuple2 = (-7, False, "Lol");
 my_tuple3 = tuple("Hello, World");
 my_tuple4 = list(my_tuple2+my_tuple3);
 print(my_tuple4);
+
+set_nums = {8, -88, 98, 8, 8};
+set_dif = {99, True, "lol"};
+print(set_dif);
+print(type(set_dif));
+print(set_nums);
+set5 = {(55,55), 66, 66, 7, 66};
+print(set5);
+set_str = {""};
+print(set_str);
+set_str.clear();
+print(set_str);
+print(type(set_str));
+set_null = set();
+print(type(set_null));
+
+photo_s = {"1900x2000", "555*666"};
+photo_x = {"2000*777", "555*666"};
+photo_x_s = photo_s.union(photo_x);
+photo_z = {"Super"};
+photo_x_s = photo_x_s|photo_z;
+
+photo_x_s.add("Lol");
+print(photo_x_s);
+set_defff = photo_x.intersection(photo_s);
+set_defff1 = photo_s & photo_x;
+print(set_defff);
+print(set_defff1);

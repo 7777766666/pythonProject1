@@ -472,3 +472,26 @@ jjj1 = lol_set_lo.issubset(lol_set_lo1);
 print(jjj1);
 jjj2 = lol_set_lo1.issuperset(lol_set_lo);
 print(jjj2);
+
+print(lol_set_lo1.intersection({7, 1, 9999999}));
+
+my_set4  = {"abc", "d", "dd","f", "y"};
+print(my_set4.intersection("abcdef"));
+my_cort5 = ("a", "b", "c", "d", "y");
+print(my_set4.intersection(my_cort5));
+print(my_set4.union("a", "b", "c", "d", "y"));
+print(my_set4.discard("abc"));
+print(my_set4);
+print(my_set4.remove("dd"));
+print(my_set4);
+my_set7 = my_set4.copy();
+my_set7.add("qwerty");
+print(my_set7);
+print(my_set4);
+my_set4.add("megalol");
+print(my_set4 & my_set7);
+print(my_set7.symmetric_difference(my_set4));
+my_set7.add(False);
+print((my_set4 | my_set7) - (my_set4 & my_set7));
+print(my_set7.symmetric_difference(my_set4));
+

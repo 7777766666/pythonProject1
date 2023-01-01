@@ -959,6 +959,55 @@ if any_list2:
 else:
     print("ЛОЖЬ");
 
+print(not 10);
+print(not 0);
+print(not True);
+print(not None);
 
+print(not not 10);
+print(not not 0);
+print(not not True);
+print(not not None);
+
+if 10:
+    print("lol");
+
+a = 10;
+b = 100;
+
+if a > 1 and 33 < b and b < a or a > 0 :
+    print("QQQ!!!!")
+
+list1 = [55, 777];
+list2 = ["lol", 46747]
+print(str(list1) + " " + str(list2));
+print(list2 or list1)
+
+print(len(list2) <0 or list1[1]);
+print(len(list2)>0 or list1);
+
+list1 = [1, 2];
+list1 and print("List is not empty");
+list1 = [];
+list1 and print("List is not empty");
+
+dict1 = {
+    "car": "Tesla",
+    "price": 19500.66,
+    "funny": True,
+
+}
+dict2 = {
+
+    "price": 19500.66,
+    "funny": True,
+"car": "Tesla",
+
+}
+print(type(dict1))
+print(dict2)
+
+dict1 == dict2 and print("dict is equalse");
+dict2.__eq__(dict1) and print("EQUALSE")
 
 

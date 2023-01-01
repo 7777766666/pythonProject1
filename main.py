@@ -689,3 +689,35 @@ print(lols_car);
 lols_car2 = about_super_lol(model="BMW", car="My car");
 print(lols_car2);
 
+def get_car5(**car100):
+    print(car100);
+    print(type(car100));
+    lols_car3 = (
+        f"{car100['model1']} it is "
+        f"{car100['car1']} !!!"
+    )
+    return lols_car3;
+
+lols_car4 = get_car5( car1="Diesel", model1="Audi 8");
+print(lols_car4);
+
+def merge_list_dict10(mem, fun):
+    ppt = f" {mem} это очень {fun}";
+    return ppt;
+
+rrr = merge_list_dict10(mem = "MEM", fun="смешно!");
+print(rrr);
+vvv = merge_list_dict10("Xa-Xa-Xa", fun="ga-ga-ga!");
+print(vvv);
+
+def update_car_info(**car9):
+    iii = (
+    f"{car9['brand']} is a baranNd and it cost "
+    f"{car9['price']} rubles!"
+    f"Is it good car = {car9['is_available']}"
+    );
+    return iii;
+
+ttt = update_car_info(brand="lada", price=12_000, is_available=True);
+print(ttt);
+

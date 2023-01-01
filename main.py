@@ -670,3 +670,19 @@ v = merge_lists_to_dict(o, t);
 print(o);
 print(v);
 
+def mult(* x):
+    print(x);
+    print(type(x));
+    print(x[0]);
+    print(x[1]);
+    return sum(x);
+
+print(mult(3, 6, 11));
+
+def about_super_lol(car, model):
+    any_lol = f"{car} is a {model} !!!";
+    return any_lol;
+
+lols_car = about_super_lol("Tesla", 777);
+print(lols_car);
+

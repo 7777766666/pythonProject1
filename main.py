@@ -686,3 +686,6 @@ def about_super_lol(car, model):
 lols_car = about_super_lol("Tesla", 777);
 print(lols_car);
 
+lols_car2 = about_super_lol(model="BMW", car="My car");
+print(lols_car2);
+

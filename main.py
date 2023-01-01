@@ -1,6 +1,7 @@
 import datetime;
 from pprint import pprint
 from copy import deepcopy
+from datetime import date
 
 print("Lol", 555, "999");
 print(print);
@@ -711,13 +712,44 @@ vvv = merge_list_dict10("Xa-Xa-Xa", fun="ga-ga-ga!");
 print(vvv);
 
 def update_car_info(**car9):
+    print(type(car9));
     iii = (
     f"{car9['brand']} is a baranNd and it cost "
     f"{car9['price']} rubles!"
     f"Is it good car = {car9['is_available']}"
     );
+
     return iii;
 
 ttt = update_car_info(brand="lada", price=12_000, is_available=True);
 print(ttt);
+
+def mult_test(num, mult=1):
+    return num * mult;
+
+ee = mult_test(100);
+print(ee)
+eee = mult_test(100, 10);
+print(eee);
+a = 30;
+m = 66;
+eeee = mult_test(a, m);
+print(eeee);
+
+def get_today():
+    return date.today().strftime('%A');
+
+def create_new_day_today(info, day=get_today()):
+    info_copy = info.copy();
+    info_copy["create_on"] = day;
+    return info_copy;
+
+wright_any = {
+    "num": 22,
+    "make": True,
+}
+
+result_info = create_new_day_today(wright_any);
+print(result_info);
+
 

@@ -847,3 +847,118 @@ d = 10;
 s = c+d;
 print(f is s);
 print(f is d);
+print(id(f));
+print(id(s));
+print(f.__eq__(s));
+print(s == f);
+
+a = [666, 777];
+b = [666, 777];
+print(a[0]);
+print(type(a));
+print(a == b);
+print(a.__eq__(b));
+
+a = -5;
+c = -a + 10;
+print(c);
+a = 5;
+c = -a + 10;
+print(c);
+a = -5;
+c = +a + 10;
+print(c);
+c = -a + 10;
+print(c);
+a = True;
+print(a);
+print(str(-a));
+print(+a);
+
+my_bool = False;
+print(my_bool);
+print(int(my_bool))
+print(+my_bool);
+print(not my_bool);
+print(not True);
+
+car = {
+    "type": "Jeep",
+    "price": 100_000,
+    "weight": 2.1
+}
+print(car["price"]);
+print("price" in car);
+print("price" not in car);
+print("lol" in car);
+print("lolllebebber" not in car);
+
+print(set("hellloo"));
+a = {123, "Lol", True};
+b = a.copy();
+
+
+print(id(a));
+print(id(b));
+print(a == b);
+print(a is b);
+print(a.__eq__(b));
+print("Lol" in a);
+print("lol" in b);
+print("Lol9999999999999" not in a);
+print("Lol" not in b);
+print(type(a));
+a = 0;
+print(bool(a));
+a = -100.8765858;
+print(bool(a));
+print(bool(0j));
+print(bool ({1, 5}) );
+print(bool({}))
+print(bool(()));
+print(bool([]));
+print(bool(range(0)))
+print(bool(range(0, 3, 1)))
+print(bool(str("")))
+print(range(0, 10))
+a = range(1, 10);
+print(a);
+print(type(a));
+print(a[4]);
+print(not {});
+a = True;
+print(not not a);
+
+any_list = [10, 100, 99];
+
+if len(any_list) == 2:
+    print("2 elements")
+else:
+    print("elements not 2");
+
+if any_list:
+    print("lol")
+
+any_list2 = ();
+if any_list2:
+    print("pop");
+any_list2 = list(any_list2);
+print(type(any_list2));
+any_list2.append(66);
+any_list2.append(77);
+print(any_list2);
+if any_list2:
+    print("lololololo");
+
+any_list2.clear();
+if any_list2:
+    print("@@@@@@@@@@@");
+print(any_list2);
+if any_list2:
+    print("@@@@@@@@@@@@@@");
+else:
+    print("ЛОЖЬ");
+
+
+
+

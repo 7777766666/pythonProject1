@@ -781,11 +781,61 @@ def inside_lol(numb):
     else:
         print("You cant / on 3....sorry")
 
+def outside_lol2(numb1, numb2, any_fnn):
+    numb_new = numb1 * numb2;
+    any_fnn(numb_new);
+#
+#
+# s1 = int (input("Enter number1: "));
+# s2 = int(input("Enter second number: "));
+# outside_lol2(numb1=s1, numb2=s2, any_fnn=inside_lol);
+#
+#
 def outside_lol(numb, any_fn):
     any_fn(user_num);
+#
+#
+# user_num = int (input("Please, enter your number: "));
+# print(user_num);
+#
+# outside_lol(numb=user_num, any_fn=inside_lol);
+
+def get_lol3(val, plus=0):
+    """
+    Plus in function.
+    It is my sentonse
+    """
+    return val + plus;
+
+print(get_lol3(5, 100));
+
+s = 1000;
+
+def som_fn3():
+    s=3;
+    def in_som_fn():
+        s = 0.5;
+        print(s*5);
+    in_som_fn();
+
+som_fn3();
+print(s);
 
 
-user_num = int (input("Please, enter your number: "));
-print(user_num);
+def sone_lol7():
+    global lll;
+    lll = True;
+    print(type(lll));
 
-outside_lol(user_num, inside_lol);
+sone_lol7();
+print(str(lll) + " Lol!");
+
+def copy_lol(a, b, c, f):
+    print(a);
+    print(b);
+    print(c)
+    print(f)
+    print(a + " " + b + " " + str(c) + " " + str(f));
+
+copy_lol("lol", "super!!!", True, -999)
+print(dir())

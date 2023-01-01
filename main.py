@@ -659,3 +659,14 @@ print(pers_lol);
 print(pers_lol["age"]);
 print(lol_method2["age"]);
 
+r = [1,3]
+t = ["Lol", True, 987.0987]
+def merge_lists_to_dict(a, b):
+    c = list(zip(a + b));
+    return c;
+
+o = merge_lists_to_dict(r, t);
+v = merge_lists_to_dict(o, t);
+print(o);
+print(v);
+

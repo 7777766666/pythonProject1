@@ -830,12 +830,20 @@ def sone_lol7():
 sone_lol7();
 print(str(lll) + " Lol!");
 
-def copy_lol(a, b, c, f):
+def copy_lol(a, b, c, ff):
     print(a);
     print(b);
     print(c)
-    print(f)
-    print(a + " " + b + " " + str(c) + " " + str(f));
+    print(ff)
+    print(a + " " + b + " " + str(c) + " " + str(ff));
+    print(dir());
 
 copy_lol("lol", "super!!!", True, -999)
 print(dir())
+
+f = 100;
+c = 90;
+d = 10;
+s = c+d;
+print(f is s);
+print(f is d);
